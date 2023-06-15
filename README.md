@@ -1,30 +1,6 @@
 ## React TS Library Management
 
-**Using TypeScript is mandatory**
-
-## Submission Instructions [Please note]
-
-- Before submitting make sure there is no error or warning in console.
-- The Submission should not contain spaces, for example /js-101 folder/eval will not work
-- Do not push node_modules and package_lock.json to github
-
-## Maximum Marks - 16
-
-```
- ✅ able to submit the app - 1 mark ( minimum score )
- ✅ GET request is made on homepage to fetch the books data - 1 mark
- ✅ All the response from the server should be displayed on home page - 1 mark
- ✅ Correct page name should be displayed on the navbar on homepage - 1 mark.
- ✅ Correct page name should be displayed on the navbar on add-book page - 1 mark.
- ✅ Form should be present to take book details on add-book page - 1 mark.
- ✅ User should be able to add new book to the database - 2 marks.
- ✅ Patch request should be made and DOM should be updated when increase quantity button is clicked - 2 marks.
- ✅ Patch request should be made and DOM should be updated when decrease quantity button is clicked - 2 marks.
- ✅ Increase quantity button should be disabled when quantity reaches 10 - 1 mark
- ✅ Decrease quantity button should be disabled when quantity reaches 0 - 1 mark
- ✅ Delete request should be made and DOM should be updated when delete button is clicked - 2 marks.
-
-```
+<h3>TypeScript</h3>
 
 ## Installation
 
@@ -128,32 +104,3 @@ You have to make a Library Management page where user can add books to database.
 - Library can't handle more than 10 books each.
 - So the increase quantity button will be disabled when quantity reaches `greater than or equal to` 10.
 - Also the decrease quantity button will be disabled when quantity reaches `less than or equal to` 0.
-
-**Note:-**
-
-- Do not make another GET request after POST, PATCH, or DELETE REQUEST.
-- To update the DOM use only the `setBooks` function, that will be accepted as a prop.
-- Use the data received as response of the PATCH request to update the `books` state.
-- Do not make another get request to update the DOM.
-
-## General Instructions (**_IMPORTANT_**)
-
-1. Do not use Global CSS, instead use `<componentName>.module.css` convention for Css in that file.
-
-2. Do Not Remove ` data-testid="xxxx"` from anywhere, this are used by testing tools to test your code, removal of this will lead to low score.
-
-3. Make sure you use only the given components and dont create new files and folders as chaging component name, structures might result in giving you zero marks.
-
-4. Make sure you use only the given data and dont create new data, as chaging data might result in giving you zero marks.
-
-**Note** - This might not be all the things, you are free to use other components.
-
-#### General guidelines
-
-- The system on cp.masaischool.com may take between 1-20 minutes for responding,
-- so we request you to read the problem carefully and debug before itself
-- we also request you not to just submit it last minute
-- try to keep one submission at a time
-
-<img width="1209" alt="Screenshot 2023-05-02 at 9 09 55 AM" src="https://user-images.githubusercontent.com/74458714/235574612-02e47671-43a8-4f91-8554-a2e1982622a8.png">
-
